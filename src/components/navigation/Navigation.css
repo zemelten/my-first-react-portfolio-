@@ -1,0 +1,159 @@
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+  
+  
+}
+.navbar-links {
+  
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-links-logo {
+  
+  margin-right: 2rem;
+}
+.navbar-links-logo img {
+  width: 64px;
+  height: 56px;
+}
+.navbar-links-container {
+  
+  display: flex;
+  flex-direction: row;
+}
+
+
+.navbar-links-container p, .navbar-links-sign p {
+    color: #fff;
+    font-weight: 500;
+  margin: 0 1rem;
+  line-height: 25px;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: Sans-Serif;
+}
+
+.navbar-links-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.navbar-links-sign button {
+  background: red;
+  color: white;
+  padding: .5rem 1rem;
+ border: 0;
+ border-radius: 5px;
+ outline: none;
+ font-size: 18px;
+ font-weight: 500;
+ font-family: Sans-Serif;
+}
+.navbar-menu {
+ margin-top: 1rem;
+ position: relative;
+display: none;
+}
+.navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: absolute;
+  top: 40px;
+ right:0 ;
+ padding: 2rem;
+ min-width: 210px;
+ display: none;
+ background: red;
+ 
+}
+.navbar-menu-container p a:active {
+  color: #f1f1f1;
+}
+.navbar-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: #000;
+  color: #fff;
+  transition: 10s;
+  text-align: end;
+  padding: 2rem;
+  position: absolute;
+  top:10px ;
+  right: 0;
+  margin-top: 1rem;
+  margin-right: 0;
+  border-radius: 5px;
+  min-width:210px;
+ 
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  
+  
+}
+
+.navbar-menu-links-container p {
+  padding: 6px;
+  
+}
+ .bebe{
+   background-color: #04AA6D;
+  color: white;
+ }
+   
+
+@media screen and (max-width : 720px) {
+  .navbar-links-container {
+    display: none;
+    
+  }
+  .navbar-menu {
+    display: flex;
+    
+  }
+  .navbar {
+  
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+  padding: .5rem .5em;
+  
+}
+  .logo {
+      width: 27px;
+      height: 27px;
+      display: absolute;
+      top: 24px;
+  }
+  
+  
+.navbar-links-logo img {
+  width: 44px;
+  height: 44px;
+}
+.navbar-links-sign button {
+  padding: .5rem 1rem;
+ border: 0;
+ border-radius: 5px;
+ outline: none;
+ font-size: 12px;
+ font-weight: 500;
+ font-family: Sans-Serif;
+}
+
+}
+
+
